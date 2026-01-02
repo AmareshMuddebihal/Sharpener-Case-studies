@@ -1,0 +1,60 @@
+Seasonal Inventory Management – ToyJoy
+Business Analytics Report
+
+1. Introduction
+
+ToyJoy is a toy retail company operating through both physical retail stores and online sales channels. Over the past holiday season, management observed two major operational challenges. Certain products accumulated excessive inventory that remained unsold, while other popular products experienced frequent stockouts, leading to lost sales opportunities and customer dissatisfaction. These issues negatively impacted cash flow, warehouse capacity, and overall operational efficiency.
+
+This report analyzes three years of sales and inventory data to understand demand patterns, identify inefficiencies in inventory planning, and recommend data-driven strategies to optimize inventory management. The focus is on aligning inventory levels with seasonal demand to reduce overstock, prevent stockouts, and improve business performance.
+
+2. Business Objectives
+
+The primary objective of this analysis is to improve inventory planning and control at ToyJoy. The specific objectives are to identify products with high inventory levels but low sales performance, analyze products that frequently experience stockouts, understand seasonal demand patterns, and recommend actionable inventory optimization strategies. The analysis also aims to support better cash flow management and efficient warehouse utilization.
+
+3. Key Performance Indicators
+
+To evaluate inventory performance, the following key performance indicators were used. Units Sold per Product measures the total quantity sold over a specific period. Inventory Turnover Rate evaluates how efficiently inventory is converted into sales and is calculated as units sold divided by average inventory. Stockout Rate measures how frequently products are unavailable for sale. Excess Inventory Value represents the financial value of unsold stock. Seasonal Demand Patterns identify variations in sales during festivals, holidays, and peak periods. Revenue Contribution per Product measures the financial impact of each product on total revenue.
+
+4. Dataset Overview
+
+The analysis is based on a dataset covering a three-year period from January 2022 to December 2024. The dataset includes product-level sales and inventory data across different categories such as action figures, soft toys, educational toys, board games, and outdoor toys. Key fields include date, product identifier, product name, category, units sold, inventory level, unit price, unit cost, and revenue.
+
+The dataset was designed to simulate real-world business data, including missing inventory values and inconsistent category naming, to reflect practical data cleaning challenges.
+
+5. Data Cleaning and Assumptions
+
+Several assumptions were made during data preparation. Missing inventory values were estimated using average inventory levels from previous months. Category names were standardized to ensure consistency across records. A product was considered to be in a stockout condition when inventory levels fell below a predefined threshold. Seasonal demand spikes were assumed to occur during major festivals, school holidays, and year-end holiday periods.
+
+Data cleaning involved removing duplicate records, correcting inconsistent labels, validating revenue calculations, and ensuring time-series continuity.
+
+6. Exploratory Data Analysis
+
+Exploratory analysis revealed clear differences in sales performance across product categories. Action figures and soft toys consistently showed high sales volumes, especially during festive seasons. Educational toys and board games demonstrated slower movement and lower inventory turnover, indicating overstock risks.
+
+Inventory turnover analysis showed that action figures had the highest turnover rate, indicating efficient inventory utilization. In contrast, educational toys and board games exhibited low turnover rates, suggesting excessive stock relative to demand.
+
+Stockout analysis indicated that high-demand products experienced frequent unavailability during peak seasons such as Diwali, Christmas, and summer holidays. Online sales channels were more prone to stockouts compared to retail stores, likely due to higher demand volatility.
+
+Seasonal trend analysis showed strong sales spikes during festive months, moderate sales during summer vacations, and relatively low demand in the early months of the year.
+
+7. Key Insights
+
+The analysis identified that excess inventory was primarily concentrated in educational toys and certain board games, tying up capital and increasing storage costs. High-demand products such as action figures and soft toys frequently faced stockouts during peak seasons, resulting in lost revenue opportunities.
+
+A clear mismatch between inventory planning and seasonal demand patterns was observed. Inventory replenishment strategies were largely static and did not account for demand fluctuations throughout the year.
+
+8. Recommendations
+
+In the short term, ToyJoy should reduce reorder quantities for slow-moving products and prioritize restocking high-demand items before peak seasons. Excess inventory should be cleared through targeted discount campaigns, bundle offers, or promotional sales immediately after seasonal peaks.
+
+For long-term improvement, the company should implement seasonal demand forecasting using historical sales data. Reorder points and order quantities should be adjusted dynamically based on expected demand and lead times. Products should be classified using an ABC analysis framework, where high-revenue and high-demand products receive priority stocking, and low-demand products are stocked minimally.
+
+Additionally, inventory planning should differentiate between online and retail channels to account for differences in demand variability.
+
+9. Optional Dashboard Overview
+
+An interactive dashboard can be developed using Excel or Power BI to monitor key metrics such as sales trends, inventory levels, turnover rates, and stockout frequency. Such a dashboard would provide management with real-time visibility into inventory performance and support faster, data-driven decision-making.
+
+10. Conclusion
+
+This study demonstrates that inventory inefficiencies at ToyJoy are largely driven by poor alignment between stock levels and seasonal demand. By adopting data-driven forecasting, improving reorder strategies, and actively managing slow-moving inventory, ToyJoy can significantly reduce excess stock, improve product availability, and enhance overall profitability. Effective seasonal inventory management will support sustainable growth and better customer satisfaction in the long run.
